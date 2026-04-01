@@ -16,13 +16,12 @@ COURSE_CHOICES = [
 
 
 class Curse(models.Model):
-    name = models.CharField(choices=COURSES_CHOICES)
+    name = models.CharField(choices=COURSE_CHOICES)
     curse_code = models.CharField(max_length=6) 
     semesters = models.IntegerField(validators=[
         MinValueValidator(8, "A duração mínima dos cursos são 8 semestres "),
         MaxValueValidator(12, "A duração máxima dos cursos são 12 semestres"),
     ])
 
-
     def __str__(self):
-        self.name
+        return self.name
