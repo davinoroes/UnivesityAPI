@@ -1,3 +1,5 @@
 app/__pycache__
 db.sqlite3
 students/__pycache__
+teachers/__pycache__
+course/__pycache__
