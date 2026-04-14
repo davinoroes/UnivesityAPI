@@ -3,3 +3,4 @@ db.sqlite3
 students/__pycache__
 teachers/__pycache__
 course/__pycache__
+discipline/__pycache__/
