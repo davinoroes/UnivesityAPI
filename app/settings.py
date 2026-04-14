@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'cpf_field',
     'teachers',
     'course',
+    'discipline',
 ]
 
 MIDDLEWARE = [
